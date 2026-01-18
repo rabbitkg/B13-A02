@@ -34,9 +34,38 @@ nav a:hover{
     padding: 10px;
     border-radius: 25px;
 }
+.btn-2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 12.5px 20px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10000px;
+    background: linear-gradient(to top right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+.btn-2:hover{
+    color: black;
+}
+.btn-3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+    padding: 12.5px 20px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    border: 2px solid #00FF88;
+    border-radius: 10000px;
+    background: none;
+}
+.btn-3:hover{
+    background-color: #9100f83a;
+}
 
-
-/* -------- */
+/* Nav */
 nav{
     max-width: 1600px;
     display: flex;
@@ -70,6 +99,66 @@ nav>ul>li>a{
     display: none;
 }
 
+/* Banner */
+
+#banner{
+    background-image: url(../hero-bg.png);
+    width: 100%;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #331955;
+}
+
+.criticle{
+    margin-top: 115px;
+    position: relative;
+}
+
+.micro{
+    position: absolute;
+    left: 33%;
+    top: 24%;
+}
+.new{
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1A0B2E;
+    background-color: #00FF88;
+    border: none;
+    border-radius: 1000px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
+#banner h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 40px;
+}
+
+#banner .paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.74);
+    margin-top: 8px;
+}
+.btns{
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
     nav{
         padding: 18px 20px;
@@ -84,5 +173,36 @@ nav>ul>li>a{
     .menu{
         display: inline;
     }
-
+    #banner{
+        background-size: 575px;
+        min-width: 575px;
+        height: 35vh;
+        /* border: 1px solid red; */
+    }
+    .criticle .round{
+        margin-top: -70px;
+        width: 60vw;
+        max-width: 250px;
+        min-width: 120px;
+    }
+    .micro{
+        position: absolute;
+        left: 35%;
+        top: 0%;
+        max-width: 80px;
+    }
+    .new{
+        font-size: 16px;
+        top: -35%;
+        left: 67%;
+    }
+    #banner h1{
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 24px;
+    }
+    #banner .paragraph{
+        max-width: 400px;
+        text-align: center;
+    }
 }
