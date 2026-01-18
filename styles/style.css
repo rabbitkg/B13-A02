@@ -65,6 +65,11 @@ nav a:hover{
     background-color: #9100f83a;
 }
 
+.micro:hover{
+            transform: rotate(360deg) scale(1) translateX(0px);
+            transition: transform 2s ease-out 0.5s;
+        }
+
 /* Nav */
 nav{
     max-width: 1600px;
