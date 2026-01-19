@@ -212,6 +212,71 @@ nav>ul>li>a{
     color: rgba(255, 255, 255, 0.74);
 }
 
+/* chose section */
+#choose{
+    /* border: 1px solid red; */
+    /* padding: 120px 200px; */
+    padding-top: 120px;
+    background-color: #230E3D;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#choose h2{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.card-section-2{
+    /* border: 1px solid green; */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding-bottom: 120px;
+}
+.card-section-2 .card{
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    padding: 40px;
+    align-content: center;
+    text-align: left;
+}
+.card-section-2 .card h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px auto;
+}
+.card-section-2 .card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.74);
+}
+.card-1{
+    /* border: 1px solid red; */
+    grid-row: span 2;
+}
+.card-2{
+    /* border: 1px solid red; */
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.card-3{
+    /* border: 1px solid red; */
+    grid-column: span 2;
+}
+.card-4{
+    /* border: 1px solid red; */
+    grid-column: span 2;
+}
+.card-5{
+    /* border: 1px solid red; */
+    grid-column: span 1;
+}
+
 
 
 
@@ -307,6 +372,34 @@ nav>ul>li>a{
     #About .card-section-1 h1 span{
         font-size: 25px;
     }
-
+    #choose{
+        padding-top: 40px;
+    }
+    #choose h2{
+        font-size: 32px;
+    }
+    .card-section-2{
+        /* border: 1px solid green; */
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 16px;
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 40px;
+    }
+    .card{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .card-4{
+        grid-row: span 2;
+    }
+    .card-section-2 .card{
+        padding: 20px;
+    }
+    .card-section-2 .card h3{
+        font-size: 22px;
+    }
 
 }
