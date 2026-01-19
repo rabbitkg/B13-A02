@@ -331,7 +331,70 @@ nav>ul>li>a{
     color: #00FF88;
 }
 
-
+/* Host section */
+#host{
+    max-width: 1200px;
+    margin: 120px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#host h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+#host .kumar-box{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 40px;
+    border: none;
+}
+#host .kumar{
+    text-align: left;
+}
+#host .kumar h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#host .kumar p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.664);
+    margin-bottom: 12px;
+}
+#host .kumar ul{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+#host .kumar ul li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 12.5px;
+}
+#host .kumar ul .logo-1{
+   padding-left: 11px;
+   padding-top: 10px;
+}
+#host .kumar ul .logo-2{
+   padding-left: 12px;
+}
+#host .kumar ul .logo-3{
+   padding-left: 10px;
+   padding-top: 10px;
+}
+#host .kumar ul .logo-4{
+   padding-left: 9px;
+   padding-top: 9px;
+}
 
 
 
@@ -484,6 +547,32 @@ nav>ul>li>a{
     }
     .card-card p{
         margin-bottom: 8px;
+    }
+    #host{
+        max-width: 400px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    #host h1{
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+    #host .kumar-box{
+        padding: 24px;
+        flex-direction: column;
+        gap: 16px;
+        border-radius: 20px;
+        border: none;
+    }
+    #host .kumar{
+        text-align: center;
+    }
+
+    #host .kumar p{
+        margin-bottom: 16px;
+    }
+    #host .kumar ul{
+        justify-content: center;
     }
 
 }
